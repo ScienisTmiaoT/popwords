@@ -1,0 +1,213 @@
+body {
+     overflow: hidden; /* hide scrollbar */
+}
+
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+    pointer-events: none; /* pass any event through*/
+  }
+
+  .center-screen > div {
+    /* width: 27%; */
+    margin: 10px;
+    text-align: center;
+    line-height: 100%;
+  }
+
+  #hello {
+    width: 45%;
+  }
+
+  .bg-img {
+    /* The image used */
+    /* background-image: url("../img/city_bw.jpg"); */
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+    /* Needed to position the navbar */
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  .bg-img::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url("../img/city.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(6px) grayscale(100%);
+    /* z-index: 0; */
+    /* filter: grayscale(100%); */
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #progress { 
+    margin-left: 1px;
+  }
+  
+  /* .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+
+  #logo {
+    background-image: url(../img/weibo_32x32.png);
+    margin: 8px 0px 0px 6px;
+    /* position: relative; */
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* text-indent: -9999px;
+    width: 981px;
+    height: 180px; */
+  }
+
+
+
+  /* for range slider */
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: middle;
+  }
+  
+  /* .box-minmax {
+    margin-top: 30px;
+    width: 608px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  .box-minmax span:first-child {
+    margin-left: 10px;
+  } */
+  
+  .range-slider {
+    margin-top: -7vh;
+  }
+  
+  .rs-range {
+    margin-top: 15px;
+    width: 250px;
+    /* direction: rtl; */
+    -webkit-appearance: none;
+  }
+  .rs-range:focus {
+    outline: none;
+  }
+  .rs-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    box-shadow: none;
+    background: #ffffff;
+    border-radius: 0px;
+    border: 0px solid #010101;
+  }
+  .rs-range::-moz-range-track {
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    box-shadow: none;
+    background: #ffffff;
+    border-radius: 0px;
+    border: 0px solid #010101;
+  }
+  .rs-range::-webkit-slider-thumb {
+    box-shadow: none;
+    border: 0px solid #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    height: 15px;
+    width: 5px;
+    border-radius: 22px;
+    background: white;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+  }
+  .rs-range::-moz-range-thumb {
+    box-shadow: none;
+    border: 0px solid #ffffff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    height: 15px;
+    width: 5px;
+    border-radius: 22px;
+    background: white;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+  }
+  .rs-range::-moz-focus-outer {
+    border: 0;
+  }
+  
+  .rs-label {
+    position: relative;
+    transform-origin: center center;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-left: -8px;
+    left: attr(value);
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 15px;
+  }
+  /* .rs-label::after {
+    content: "kg";
+    display: block;
+    font-size: 20px;
+    letter-spacing: 0.07em;
+    margin-top: -2px;
+  } */

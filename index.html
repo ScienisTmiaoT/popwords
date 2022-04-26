@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>疫情词频</title>
+</head>
+ 
+<body>
+    <div class="bg-img">
+        <div class="container">
+          <div class="topnav">
+            <a id="logo"></a>
+            <a >#上海疫情# 今日热词</a>
+            <a>
+              <div class="container">
+  
+                <div class="range-slider">
+                  <span id="rs-bullet" class="rs-label">0</span>
+                  <input id="rs-range-line" class="rs-range" type="range" value="0" min="0" max="100">
+                </div>
+                
+                <!-- <div class="box-minmax">
+                  <span>0</span><span>200</span>
+                </div> -->
+                
+              </div>
+            
+            
+            </a>
+          </div>
+        </div>
+        
+        <div id="word_cloud" class="center-screen">
+            <div></div>
+            <div id="hello"></div>
+            <div></div>
+        </div>
+      </div>
+<script src="js/d3.min.js"></script>
+<script src="js/d3.layout.cloud.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+
+</body> 
+
+</html>
