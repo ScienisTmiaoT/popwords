@@ -1,3 +1,6 @@
+// avoid browser caches data.js by inserting an unique identifier
+document.getElementById('datajs').src = 'js/data.js' + '?v=' + Date.now();
+
 // Don't forget to load dom. Otherwise, makeWordCloud function might fails to work.
 // Make sure the format => [ {"word": String, "value": Number}, ..., ... ]
 // Value should be greater than 0
