@@ -1,6 +1,14 @@
 // avoid browser caches data.js by inserting an unique identifier
 document.getElementById('datajs').src = 'js/data.js' + '?v=' + Date.now();
 
+
+const jsonData = JSON.parse(data);
+const rawData = jsonData["data"];
+var title = document.querySelector('#title');
+title.innerHTML = jsonData["title"];
+var topic = document.querySelector('#topic');
+topic.innerHTML = "#" + jsonData["topic"] + "# 今日热词";
+
 // Don't forget to load dom. Otherwise, makeWordCloud function might fails to work.
 // Make sure the format => [ {"word": String, "value": Number}, ..., ... ]
 // Value should be greater than 0
