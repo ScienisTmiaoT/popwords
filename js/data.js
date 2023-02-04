@@ -1,1 +1,1 @@
-var data = '{"data": "感觉:1 生活:1 恢复正常:1 团圆:1", "title": "疫情词频", "topic": "北京疫情"}'
+var data = '{"data": "Guim:1 Ti:1 Zarraluki:1", "title": "疫情词频", "topic": "北京疫情"}'
