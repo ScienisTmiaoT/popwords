@@ -1,1 +1,1 @@
-var data = '{"data": "human:1 beings:1 宁波:1 巡游:1 cut:1 妹子:1 执念:1 剧集:1 角度:1 颜色:1 调成:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "一只:1 朋友:1 腾讯:1 会员:1 火鸡:1 human:1 beings:1 宁波:1 巡游:1 cut:1 妹子:1 执念:1 剧集:1 角度:1 颜色:1 调成:1", "title": "词频", "topic": "三体"}'
