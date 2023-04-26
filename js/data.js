@@ -1,1 +1,1 @@
-var data = '{"data": "剧太牛:1 真的:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "真的:2 古筝:1 震撼:1 剧太牛:1", "title": "词频", "topic": "三体"}'
