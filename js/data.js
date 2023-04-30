@@ -1,1 +1,1 @@
-var data = '{"data": "三体:4 人类:2 水滴:2 舰队:2 AI:1 几张:1 概念:1 艺术:1 首次:1 接触:1 探测器:1 末日:1 之战:1 木星:1 击穿:1 刷子:1 航迹:1 PS:1 Midjourney:1 Stable:1 Diffusion:1 制作:1 电视剧:1 workership:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "三体:4 人类:2 水滴:2 舰队:2 沉迷于:1 内容:1 深奥:1 看不懂:1 充满:1 未知:1 事物:1 探索:1 AI:1 几张:1 概念:1 艺术:1 首次:1 接触:1 探测器:1 末日:1 之战:1 木星:1 击穿:1 刷子:1 航迹:1 PS:1 Midjourney:1 Stable:1 Diffusion:1 制作:1 电视剧:1 workership:1", "title": "词频", "topic": "三体"}'
