@@ -1,1 +1,1 @@
-var data = '{"data": "furrybody:1 一身:1 鸡皮疙瘩:1 伟演:1 角色:1 真的:1 哈哈哈:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "先看:1 ETO:1 盯上:1 furrybody:1 一身:1 鸡皮疙瘩:1 伟演:1 角色:1 真的:1 哈哈哈:1", "title": "词频", "topic": "三体"}'
