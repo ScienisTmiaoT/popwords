@@ -1,1 +1,1 @@
-var data = '{"data": "三体:2 艺术:1 画集:1 The:1 body:1 universe:1 illustrated:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "猜想:2 三体:2 翻到:1 科学:1 宗教:1 证实:1 证伪:1 艺术:1 画集:1 The:1 body:1 universe:1 illustrated:1", "title": "词频", "topic": "三体"}'
