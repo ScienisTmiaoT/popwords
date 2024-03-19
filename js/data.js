@@ -1,1 +1,1 @@
-var data = '{"data": "Pedro:1 Pascal:1 ins:1 宣传:1 Netflix:1 美国:1 三体:1 ..:1 伊文斯:1 叶文洁:1 拥吻:1 好好:1 shameless:1 千玺:1 开炮:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "两句话:2 返航:1 遗体:1 补充:1 食物:1 库存:1 一下子:1 冲击:1 气来:1 明明:1 普普通通:1 确让:1 感受:1 极致:1 悲伤:1 Pedro:1 Pascal:1 ins:1 宣传:1 Netflix:1 美国:1 三体:1 ..:1 伊文斯:1 叶文洁:1 拥吻:1 好好:1 shameless:1 千玺:1 开炮:1", "title": "词频", "topic": "三体"}'
