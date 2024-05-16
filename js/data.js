@@ -1,1 +1,1 @@
-var data = '{"data": "OMG:1 网飞:1 Netflix:1 官宣:1 续订:1 第二季:1 Houson:1 猴姆:1 微博:1 视频:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "官宣:3 续订:3 Netflix:2 第二季:2 微博:2 视频:2 OMG:1 网飞:1 Houson:1 猴姆:1 奈飞:1 正式:1 三体:1 电影:1", "title": "词频", "topic": "三体"}'
