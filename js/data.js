@@ -1,1 +1,1 @@
-var data = '{"data": "三体:1 爆红:1 太空:1 歌剧:1 遭受:1 嘲笑:1 批评:1 剧迷:1 集散地:1 微博:1 视频:1 大半夜:1 emo:1 逼成:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "微博:3 视频:3 剧迷:2 集散地:2 PICO:2 三体:1 爆红:1 太空:1 歌剧:1 遭受:1 嘲笑:1 批评:1 最终:1 Get:1 ready:1 launch:1 August:1 23rd:1 Don:1 miss:1 Hanggai:1 concert:1 Video:1 demand:1 错过:1 舞台:1 大半夜:1 emo:1 逼成:1", "title": "词频", "topic": "三体"}'
