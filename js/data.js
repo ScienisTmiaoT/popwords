@@ -1,1 +1,1 @@
-var data = '{"data": "Doumit:2 De:2 Lange:2 饰演:2 监听:1 对雷:1 迪亚兹:1 计划:1 人格魅力:1 感到:1 震撼:1 Claudia:1 黑袍:1 纠察队:1 Ellie:1 毒蛇:1 Netflix:1 Body:1 Problem:1 第二季:1 常规:1 演员:1 Captain:1 Van:1 Rijn:1 Ayla:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "坦言:2 Doumit:2 De:2 Lange:2 饰演:2 监听:1 对雷:1 迪亚兹:1 计划:1 人格魅力:1 感到:1 震撼:1 常伟思:1 内心:1 充满:1 恐惧:1 对手:1 追剧:1 微博:1 视频:1 Claudia:1 黑袍:1 纠察队:1 Ellie:1 毒蛇:1 Netflix:1 Body:1 Problem:1 第二季:1 常规:1 演员:1 Captain:1 Van:1 Rijn:1 Ayla:1", "title": "词频", "topic": "三体"}'
