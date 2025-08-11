@@ -1,1 +1,1 @@
-var data = '{"data": "真的:1 希望:1 俞俐:1 老师:1 演庄颜:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "豆包:3 官方:1 workership:1 AI:1 真的:1 希望:1 俞俐:1 老师:1 演庄颜:1", "title": "词频", "topic": "三体"}'
