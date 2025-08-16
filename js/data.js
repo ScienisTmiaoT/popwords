@@ -1,1 +1,1 @@
-var data = '{"data": "郁初:1 大王:1 微博:1 视频:1", "title": "词频", "topic": "三体"}'
+var data = '{"data": "微博:2 邂逅:1 红岸:1 基地:1 流星:1 划过:1 金星:1 木星:1 超级:1 vivo:1 EasyNight:1 摄影师:1 周博:1 lifelens:1 摄影:1 影像:1 Jeff:1 星空:1 之旅:1", "title": "词频", "topic": "三体"}'
